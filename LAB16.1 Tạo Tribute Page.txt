@@ -1,0 +1,51 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <main id="main">
+    <div id="title"><h1>TS. Norman Borlaug</h1></div>
+    <figure id="img-div">
+      <img id="image"
+         src="https://salt.tikicdn.com/cache/280x280/ts/product/24/19/d3/dd22884743f2af39e62227302bb47968.jpg" alt="img err"/>
+        
+ <div id="img-caption"><p> mèo con tinh nghịch </p></div>
+
+      
+      </figure>
+ 
+
+  <div id="tribute-info">
+    Con mèo nhà em nặng 10 kg, bốn chân nó mập ú có từng khoang màu vàng quanh các chân.
+    Tả gương mặt con mèo: Con mèo có cái đầu khá to và bộ mặt tròn tròn. Hai lỗ tai con mèo lúc nào cũng vểnh lên nghe ngóng xung quanh. Đôi mắt của nó có màu vàng, vào buổi tối khi cả nhà tắt điện đi ngủ là đôi mắt của nó rất sáng. Xung quanh miệng con mèo có bộ râu rất dài, mỗi lần ăn cơm xong là con mèo lại lè lưỡi liếm liếm xung quanh rồi dùng 2 chân trước của nó chà chà lên trông như đang vuốt râu.
+    Tả 4 chân và chuyển động của con mèo: Con mèo nhà em rất mập nhưng nó di chuyển nhanh nhẹn lắm, hàng ngày nó vẫn đi lùng bầy chuột quanh nhà, và bắt được rất nhiều chuột.
+    <a  id="tribute-link"
+       href="https://meocon.com" target="_blank">mèo con
+    </a>
+  </div>
+  </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#image{
+  max-width:100%;
+  height:auto;
+}
+img{
+  display:block;
+}
+
+
+** end of undefined **
+

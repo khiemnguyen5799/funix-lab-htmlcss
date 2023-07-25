@@ -1,0 +1,80 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <navbar id="navbar">
+<a href="#welcome-section">welcome section</a>
+  
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    </navbar>
+
+
+  <main id="welcome-section">
+    <h1>Hey I am Khiem</h1>
+<a href="projects">projects</a>
+    <div id="projects">
+<div class="project-tile">
+  <p>a web developer</p>
+
+  <div >
+    <a id="profile-link" href="https://github.com" target="_blank">khiemnguyen_gidhub</a>
+  </div>
+
+</div>
+
+
+    </div>
+
+  </main>
+
+  
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#navbar{
+    display: flex;
+    position: fixed;justify-content: flex-end;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-red);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  
+}
+
+@media screen and (max-width:1200px){
+  body{
+font-size:16px;
+}}
+
+#welcome-section{
+  height:100%;
+}
+
+** end of undefined **
+

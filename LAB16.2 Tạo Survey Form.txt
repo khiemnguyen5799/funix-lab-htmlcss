@@ -1,0 +1,67 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+
+    <label id="name-label">Name</label>
+    <br>
+    <input id="name" name="name" type="text" placeholder="Enter your name" required>
+  </br>
+     
+    <label id="email-label">Email</label>
+    <br>
+    <input id="email" type="email" placeholder="Enter your Email" required>
+    </br>
+
+    <label id="number-label">Number</label>
+    <br>
+    <input id="number"  type="number" placeholder=" number" required
+     min="2000" max="3000">
+    <br>
+
+
+    <select id="dropdown">
+     <option value="1">chơi game</option>
+   <option value="2">đọc sách</option>
+   <option value="3">du lịch</option>
+   <option value="4">xem phim</option>
+  </select>
+  
+
+  <input name="gioitinh" type="radio" value="Nam" />Nam
+
+<input name="gioitinh" type="radio" value="Nữ" />Nữ
+
+
+<input type="checkbox" name="sport" value="Bóng đá">Bóng đá
+<input type="checkbox" name="sport" value="Bơi lội">Bơi lội
+
+<textarea></textarea>
+
+    <button id="submit" type="submit" name="submit" value="Đăng Nhập" />
+
+  </form>
+
+  
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
