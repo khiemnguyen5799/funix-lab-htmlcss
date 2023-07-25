@@ -27,7 +27,13 @@
       }
       header{
         height: 100vh;
-        background-color: orangered;
+        /* background-color: orangered; */
+        position: relative;
+        background-image: linear-gradient(rgba(34,34,34,0.6),rgba(34,34,34,0.6)),
+        url(hero.jpg);
+        background-size: cover;
+        color: #fff;
+
       }
       nav{
         font-size: 20px;
@@ -35,7 +41,7 @@
         display: flex;
         justify-content: space-between;
         padding-top: 32px;
-        background-color: green;
+        /* background-color: green; */
 
       }
       h1{
@@ -68,6 +74,16 @@
         padding: 96px 0;
         background-color: #f7f7f7;
         
+      }
+      .header_container{
+        width: 1200px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+      }
+      .header_container-inner{
+        width: 50%;
       }
     </style>
   </head>
